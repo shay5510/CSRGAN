@@ -36,8 +36,8 @@ We trained our mode for 21 epochs, approximately 8hr.<br/>
 ## Command line 
 Input arguments to our model:
 ```
---epochs,default=21,type=int
---saveparams_freq_batch, default=5,type=int
+--epochs                | default=21 | type=int
+--saveparams_freq_batch | default=5  | type=int
 --saveimg_freq_step, default=100,type=int
 --lrG, default=1e-4,type=int
 --lrD, default=1e-5,type=int
