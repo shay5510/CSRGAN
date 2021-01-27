@@ -34,7 +34,7 @@ We trained our mode for 21 epochs, approximately 8hr.<br/>
 **For each Generator one can use regular GAN or Conditional GAN(example downwards)**
 
 ## Command line 
-Input arguments to our model:
+Input arguments to [train.py](train.py):
 ```
 --epochs                | default=21   
 --saveparams_freq_batch | default=5    
@@ -48,3 +48,12 @@ Input arguments to our model:
 --generator             | default="GeneratorFeatures"
 --discriminator         | default= "Discriminator"
 --batch_size            | default= 16,type=int
+```
+- command line for our default model(regular GAN - GeneratorFeatures)
+```
+python train.py
+```
+- command line for different model(Conditional GAN - GeneratorBroken63) 
+```
+python train.py --generator GeneratorBroken63 --discriminator C
+```
