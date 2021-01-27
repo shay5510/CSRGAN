@@ -65,7 +65,7 @@ The code creates out dirs - training results\\<MONTHDD_HH_MM>\ (for example: tra
 - train_data - summary csv and tensorboard results
 
 ## Test
-Input arguments for [test.py](code/test.py)
+Input arguments for [test.py](test.py)
 ```
 --train_path            | default='./data/6k_data/train'
 --test_path             | default='./data/6k_data/test'
