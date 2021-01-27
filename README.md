@@ -35,3 +35,16 @@ We trained our mode for 21 epochs, approximately 8hr.<br/>
 
 ## Command line 
 Input arguments to our model:
+```
+--epochs,default=21,type=int
+--saveparams_freq_batch, default=5,type=int
+--saveimg_freq_step, default=100,type=int
+--lrG, default=1e-4,type=int
+--lrD, default=1e-5,type=int
+--train_path,default='./data/6k_data/train'
+--test_path,default='./data/6k_data/test'
+--type_of_dataset, default="10_dogs"
+--fname, default=""
+--generator, default="GeneratorFeatures"
+--discriminator, default= "Discriminator"
+--batch_size, default= 16,type=int
