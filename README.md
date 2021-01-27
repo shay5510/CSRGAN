@@ -85,5 +85,5 @@ The test script creates new dir - test_results where we can find colorized super
 
 
 ## Examples 
-![GeneratorFeatures example](examples/best_example.JPG)<br/>
+![GeneratorFeatures example](examples/best_example.JPG)<br/><br/><br/>
 ![Comparison bewteen GAN](examples/comparison_image.JPG)
