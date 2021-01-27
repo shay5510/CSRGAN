@@ -64,3 +64,18 @@ The code generates out dir - training results\<MONTHDD_HH_MM>\ with 3 subdirs: (
 - train_data - summary csv and tensorboard results
 
 ## Test
+Input arguments for [test.py](code/test.py)
+```
+--train_path            | default='./data/6k_data/train'
+--test_path             | default='./data/6k_data/test'
+--type_of_dataset       | default="10_dogs"
+--fname                 | default=""
+--params_path           | default= "params/6k_params/netG_epoch_20.pth"
+--batch_size            | default= 16,type=int
+```
+
+```
+python test.py
+``` 
+
+
