@@ -30,6 +30,8 @@ We trained our mode for 21 epochs, approximately 8hr.<br/>
 - [Generator_feature_extractor](code/Generator_feature_extractor.py)
 - [Generator](code/Generator.py)
 - [Generator_break_63_plus_1](code/Generator_break_63_plus_1.py)
-- [Generator_RRDB](code/Generator_RRDB.py)
-**For each Generator one can choose whether to use regular GAN or Condional GAN(example downwards)**
+- [Generator_RRDB](code/Generator_RRDB.py)<br/>
+**For each Generator one can use regular GAN or Conditional GAN(example downwards)**
 
+## Command line 
+Input arguments to our model:
