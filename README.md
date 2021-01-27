@@ -34,7 +34,7 @@ We trained our mode for 21 epochs, approximately 8hr.<br/>
 
 **For each Generator one can use regular GAN or Conditional GAN(example downwards)**
 
-## Command line 
+## Train 
 Input arguments for [train.py](train.py):
 ```
 --epochs                | default=21   
@@ -47,8 +47,8 @@ Input arguments for [train.py](train.py):
 --type_of_dataset       | default="10_dogs"
 --fname                 | default=""
 --generator             | default="GeneratorFeatures"
---discriminator         | default= "Discriminator"
---batch_size            | default= 16,type=int
+--discriminator         | default="Discriminator"
+--batch_size            | default=16
 ```
 - command line for our default model(regular GAN - GeneratorFeatures)
 ```
@@ -71,8 +71,8 @@ Input arguments for [test.py](test.py)
 --test_path             | default='./data/6k_data/test'
 --type_of_dataset       | default="10_dogs"
 --fname                 | default=""
---params_path           | default= "params/6k_params/netG_epoch_20.pth"
---batch_size            | default= 16,type=int
+--params_path           | default="params/6k_params/netG_epoch_20.pth"
+--batch_size            | default=16
 ```
 
 ```
