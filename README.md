@@ -27,10 +27,10 @@ We used google cloud services for training our model - using:<br/>
 We trained our mode for 21 epochs, approximately 8hr.<br/>
 
 ## Training Models
-- [Generator_feature_extractor](code/Generator_feature_extractor.py)
+- [GeneratorFeatures](code/Generator_feature_extractor.py)
 - [Generator](code/Generator.py)
-- [Generator_break_63_plus_1](code/Generator_break_63_plus_1.py)
-- [Generator_RRDB](code/Generator_RRDB.py)<br/>
+- [GeneratorBroken63](code/Generator_break_63_plus_1.py)
+- [GeneratorRRDB](code/Generator_RRDB.py)<br/>
 **For each Generator one can use regular GAN or Conditional GAN(example downwards)**
 
 ## Command line 
