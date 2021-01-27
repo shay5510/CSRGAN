@@ -22,6 +22,7 @@ Test: ~560 images<br/>
 ## Training Details
 We used google cloud services for training our model - using:<br/>
 - 1 GPU - Tesla K80 
-- 2 CPU - 13GB RAM<br/>
+- 2 CPU - 13GB RAM
+
 We trained our mode for 21 epochs, approximately 8hr.<br/>
 
