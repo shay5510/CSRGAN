@@ -1,6 +1,6 @@
 # CSRGAN
 
-Official pyTorch implementaion of the paper [CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network](PDFS/CSRGAN.pdf)
+Official pyTorch implementaion of the paper [CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network - Yosef and Shomer chai](PDFS/CSRGAN.pdf)
 
 ## Requirments 
 
