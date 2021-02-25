@@ -2,7 +2,7 @@
 
 *Official PyTorch implementation of the our paper:* [](PDFS/CSRGAN.pdf)
 <p align="center">
-<i><a href="PDFS/CSRGAN.pdf"> CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network - Erez Yosef and Shomer Chai</a></i>
+<i><a href="PDFS/CSRGAN.pdf">Image Super-Resolution and Colorization in a single Generative Adversarial Network<br>Erez Yosef and Shomer Chai<br></a></i>
 <a href="PDFS/CSRGAN.pdf"><img src="examples/images/p01.png" width="360"></a>
 <a href="PDFS/CSRGAN.pdf"><img src="examples/images/p02.png" width="360"></a>
 <a href="PDFS/CSRGAN.pdf"><img src="examples/images/p03.png" width="100"></a>
