@@ -2,8 +2,8 @@
 
 *Official PyTorch implementation of the our paper:* [CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network - Yosef and Shomer Chai](PDFS/CSRGAN.pdf)
 <p align="center">
-<a href="#"><img src="examples/images/p01.png" width="550"></a>
-<a href="#"><img src="examples/images/p02.png" width="100"></a>
+<a href="#"><img src="examples/images/p01.png" width="300"></a>
+<a href="#"><img src="examples/images/p02.png" width="150"></a>
 <a href="#"><img src="examples/images/p02.png" width="100"></a>
 </p>
 
