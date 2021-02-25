@@ -2,16 +2,16 @@
 
 *Official PyTorch implementation of the our paper:* [CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network - Yosef and Shomer Chai](PDFS/CSRGAN.pdf)
 <p align="center">
-<a href=""><img src="examples/images/p01.png" width="350"></a>
-<a href="#"><img src="examples/images/p02.png" width="350"></a>
-<a href="#"><img src="examples/images/p03.png" width="100"></a>
-<a href="#"><img src="examples/images/p04.png" width="100"></a>
-<a href="#"><img src="examples/images/p05.png" width="100"></a>
-<a href="#"><img src="examples/images/p06.png" width="100"></a>
-<a href="#"><img src="examples/images/p07.png" width="100"></a>
-<a href="#"><img src="examples/images/p08.png" width="100"></a>
-<a href="#"><img src="examples/images/p09.png" width="100"></a>
-<a href="#"><img src="examples/images/p10.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p01.png" width="350"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p02.png" width="350"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p03.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p04.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p05.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p06.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p07.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p08.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p09.png" width="95"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p10.png" width="95"></a>
 </p>
 
 ## Requirments 
