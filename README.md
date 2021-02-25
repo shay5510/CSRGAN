@@ -19,17 +19,20 @@ Using a **single GAN** to perform the two tasks:
 * Image Colorization
 * Image Super resolution
 
-Generator Input:
-* Grayscale low resolution image (64x64)
-
-Generator Output:
-* Colored High resolution image (256x256) 
-
  <p align="center">
  <img src="examples/best_example.JPG" width="550"><br>
-  <i>Left to right: Input, Bicubic HR result, CSRGAN (Ours), HR-GT.
+  <i>Left to right: Input, Bicubic HR result, CSRGAN result (Ours), HR-GT.
 </i>
 </p>
+
+**Generator Input:** Grayscale low resolution image (64x64)
+
+**Generator Output:** Colored High resolution image (256x256) 
+
+# Methods:
+SCSC
+CSCS
+
 ## Requirments 
 
 ```
