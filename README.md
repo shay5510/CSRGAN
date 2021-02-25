@@ -14,6 +14,16 @@
 <a href="PDFS/CSRGAN.pdf"><img src="examples/images/p09.png" width="100"></a>
 </p>
 
+## Overview
+Using **single GAN** to perform the two tasks:
+* Image Colorization
+* Image Super resolution
+
+Generator Input:
+* Grayscale low resolution image (64x64)
+Generator Output:
+* Colored High resolution image (256x256) 
+
 ## Requirments 
 
 ```
