@@ -1,8 +1,35 @@
 # CSRGAN
 
-Official pyTorch implementaion of the paper [CSRGAN - Image Super-Resolution and Colorization in a single Generative Adversarial Network - Yosef and Shomer Chai](PDFS/CSRGAN.pdf)
+Official PyTorch implementation of the our paper:
+<p align="center">
+<i><a href="/PDFS/CSRGAN.pdf">Image Super-Resolution and Colorization in a single Generative Adversarial Network<br>Erez Yosef and Shomer Chai<br></a></i>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p01.png" width="360"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p02.png" width="360"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p03.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p04.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p05.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p06.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p07.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p08.png" width="100"></a>
+<a href="PDFS/CSRGAN.pdf"><img src="examples/images/p09.png" width="100"></a>
+</p>
 
-## Requirments 
+## Overview
+We designed a **single GAN** to perform the two tasks:
+* Image Colorization
+* Image Super resolution
+
+**Generator Input:** Grayscale low resolution image (64x64 px.)
+
+**Generator Output:** Colored High resolution image (256x256 px.)
+
+ <p align="center">
+ <img src="examples/best_example.JPG" width="550"><br>
+  <i>Left to right: Input, Bicubic interpolation result, CSRGAN result (Ours), HR-GT.
+</i>
+</p> 
+
+## Requirements 
 
 ```
 conda env create -f requirments.yml
@@ -14,7 +41,7 @@ This dataset contains:<br/>
 Number of dog breeds: 120<br/>
 Number of images: 20,580<br/>
 **The images are in different resolution thus we add resize(256X256) to the preprocess**<br/><br/>
-We use small portion of the dataset: ~30 different dog breeds ~6K images.<br/> 
+We use a small portion of the dataset: ~30 different dog breeds ~6K images.<br/> 
 We splited our dataset to train and test with respect to the different dog breeds.<br/>
 Train: ~5400 images<br/>
 Test: ~560 images<br/>
@@ -24,7 +51,7 @@ We used google cloud services in order to train our model - using:<br/>
 - 1 GPU - Tesla K80 
 - 2 CPU - 13GB RAM
 
-We trained our mode for 21 epochs, approximately 8hr.<br/>
+We trained our model for 21 epochs, approximately 8hr.<br/>
 
 ## Training Models
 - [GeneratorFeatures](code/Generator_feature_extractor.py)
