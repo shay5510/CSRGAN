@@ -29,10 +29,6 @@ We designed a **single GAN** to perform the two tasks:
 </i>
 </p> 
 
-## Methods:
-SCSC
-CSCS
-
 ## Requirements 
 
 ```
