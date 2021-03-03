@@ -29,6 +29,15 @@ We designed a **single GAN** to perform the two tasks:
 </i>
 </p> 
 
+## Methods:
+We used and implemented the following methods:
+* **Generative adversarial networks**, *Goodfellow et al. In Advances in Neural Information Processing Systems (NIPS). 2014.*
+* **SRGAN** *Photo-realistic single image super-resolution using a GAN, Ledig et al. Computer Vision and Pattern Recognition (CVPR). 2016.*
+* **ESRGAN** *Esrgan: Enhanced super-resolution generative adversarial networks. Ledig Et Al, ECCVW, 2018.*
+* **Relativistic GAN** *The relativistic discriminator: a key element missing from standard gan, Jolicoeur-Martineau, A. 2018*
+* **Image colorization GAN** *Image Colorization using Generative Adversarial Networks, Nazeri Et Al, 2018*
+* **conditional GAN** *Conditional Generative Adversarial Nets, Mehdi Mirza and Simon Osindero, 2014.*
+
 ## Requirements 
 
 ```
